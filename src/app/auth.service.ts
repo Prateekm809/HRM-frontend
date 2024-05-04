@@ -7,7 +7,7 @@ import { tap } from 'rxjs/operators';
 })
 export class AuthService {
 
-  private baseURL = 'https://hrm-xt7t.onrender.com/';
+  private baseURL = 'https://hrm-xt7t.onrender.com';
 
   constructor(private http: HttpClient) {}
 
